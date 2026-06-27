@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+    font-size:18px;
+}
+
+header{
+    background: lightblue;
+}
+
+nav{
+    display: inline-block;
+    width: 80%;
+    background: gray;
+}
+
+main{
+    background: white;
+    font-size: 20px;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+/* li bị comment theo yêu cầu */
+/*
+li{
+    display:inline-block;
+    width:150px;
+}
+*/
+
+h1{
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+}
+
+/* nav image */
+nav img{
+    width: 10%;
+}
+
+/* GRID */
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img{
+    width: 100%;
+}
+
+/* FLEX */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
