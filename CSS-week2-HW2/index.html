@@ -3,9 +3,15 @@ body{
     font-size:18px;
 }
 
-header{ background: lightblue; }
+header{
+    background: lightblue;
+}
 
-nav{ background: gray; }
+nav{
+    display: inline-block;
+    width: 80%;
+    background: gray;
+}
 
 main{
     background: white;
@@ -17,10 +23,13 @@ footer{
     color:white;
 }
 
+/* ❌ comment cái này lại */
+/*
 li{
     display:inline-block;
     width:150px;
 }
+*/
 
 h1{
     text-align:center;
@@ -28,4 +37,29 @@ h1{
 
 p{
     line-height:1.6;
+}
+
+/* nav image */
+nav img{
+    width:10%;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:space-around;
+    align-items:start;
+    row-gap:20px;
+}
+
+.grid img{
+    width:100%;
+}
+
+/* FLEX */
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
